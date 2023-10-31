@@ -1,0 +1,54 @@
+.nav {
+  display: none;
+  color: #fff;
+}
+
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #fff;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 0.5px solid var(--clr-secondary-two);
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-right: auto;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav {
+    display: block;
+  }
+
+  .nav-container {
+    height: 80px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
