@@ -17,22 +17,27 @@ const NavLinks: React.FC<Props> = ({
       <ul className={listClass}>
         <li className={itemClass}>
           <a href="#" className={linkClass}>
-            HOME
+            Home
           </a>
         </li>
         <li className={itemClass}>
           <a href="#" className={linkClass}>
-            HEADPHONES
+            About
           </a>
         </li>
         <li className={itemClass}>
           <a href="#" className={linkClass}>
-            SPEAKERS
+            Contact
           </a>
         </li>
         <li className={itemClass}>
           <a href="#" className={linkClass}>
-            EARPHONES
+            Blog
+          </a>
+        </li>
+        <li className={itemClass}>
+          <a href="#" className={linkClass}>
+            Careera
           </a>
         </li>
       </ul>
