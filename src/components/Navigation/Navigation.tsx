@@ -27,7 +27,7 @@ export default function Navigation() {
       <Button
         onClick={() => console.log('clicked')}
         type='button'
-        className='btn-primary'
+        className='btn btn-top'
         children='Request Invite'
       />
     </div>
