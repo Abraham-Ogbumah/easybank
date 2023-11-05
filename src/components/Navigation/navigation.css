@@ -1,6 +1,6 @@
 .nav {
   display: none;
-  color: #fff;
+  color: #000;
 }
 
 .nav__link {
@@ -9,7 +9,7 @@
 }
 
 .nav__link:hover {
-  color: #fff;
+  color: #000;
 }
 
 .nav__list {
