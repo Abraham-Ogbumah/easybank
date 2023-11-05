@@ -1,3 +1,9 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav {
   display: none;
   color: #000;
@@ -29,9 +35,11 @@
 }
 
 @media (min-width: 768px) {
-  .logo {
-    margin-right: auto;
-    margin-left: 50px;
+  .nav {
+    display: block;
+  }
+  .hamburger {
+    display: none;
   }
 }
 
@@ -41,7 +49,7 @@
   }
 
   .nav-container {
-    height: 80px;
+    
   }
 
   .hamburger {

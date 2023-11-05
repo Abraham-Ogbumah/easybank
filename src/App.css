@@ -11,10 +11,6 @@
   display: none;
 }
 
-.btn-top {
-  /* display: none; */
-}
-
 /* Modal.css */
 .modal-backdrop {
   position: fixed;
@@ -65,4 +61,10 @@
   flex-direction: column;
   padding: 10px 70px;
   gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .btn-top {
+    display: block;
+  }
 }
