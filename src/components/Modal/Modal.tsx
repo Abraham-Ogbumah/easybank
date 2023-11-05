@@ -22,12 +22,12 @@ const Modal = ({ show, onClose, children }: ModalProps) => {
         {children}
       </div>
 
-      <Button
+      {/* <Button
          onClick={() => console.log('clicked')}
          type="button"
          className="btn"
          children="Request Invite"
-      />
+      /> */}
      
     </div>
   );
