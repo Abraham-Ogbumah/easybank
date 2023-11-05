@@ -59,11 +59,16 @@ const Navigation = () => {
 
       <Modal show={isModalOpen} onClose={toggleModal}>
         {/* Modal Content Here */}
-        <NavLinks />
+        <NavLinks
+          navClass="modal_nav"
+          listClass="modal_nav__list"
+          itemClass=""
+          linkClass="modal_nav__link"
+        />
         {/* You might want to display the nav links in the modal too */}
       </Modal>
     </div>
   );
-}
+};
 
 export default Navigation;

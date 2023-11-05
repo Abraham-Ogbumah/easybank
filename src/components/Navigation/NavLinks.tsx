@@ -6,12 +6,7 @@ interface Props {
   linkClass?: string;
 }
 
-const NavLinks: React.FC<Props> = ({
-  navClass = 'nav',
-  listClass = 'nav__list',
-  itemClass = 'nav__item',
-  linkClass = 'nav__link',
-}) => {
+const NavLinks = ({navClass = 'nav', listClass = 'nav__list', itemClass = 'nav__item', linkClass = 'nav__link'}: Props) => {
   return (
     <nav className={navClass}>
       <ul className={listClass}>
@@ -37,7 +32,7 @@ const NavLinks: React.FC<Props> = ({
         </li>
         <li className={itemClass}>
           <a href="#" className={linkClass}>
-            Careera
+            Careers
           </a>
         </li>
       </ul>
