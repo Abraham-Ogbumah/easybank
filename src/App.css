@@ -29,6 +29,11 @@
   top: -40px;
 }
 
+.hero-text {
+  width: 100%;
+  text-align: center;
+}
+
 /* Modal.css */
 .modal-backdrop {
   position: fixed;

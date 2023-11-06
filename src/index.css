@@ -19,3 +19,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  color: #2D314D;
+}
+
+p {
+  color: #9597A5;
+  line-height: 1.5;
+}
