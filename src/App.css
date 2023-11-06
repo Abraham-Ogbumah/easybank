@@ -16,6 +16,17 @@
   background-image: url('./assets/images/bg-intro-mobile.svg');
   background-size: contain;
   background-repeat: no-repeat; /* This will prevent the image from repeating */
+  /* background-position: center; */
+}
+
+.mockups {
+  height: 450px;
+}
+
+.mockup-image {
+  width: 100%;
+  position: absolute;
+  top: -40px;
 }
 
 /* Modal.css */

@@ -21,14 +21,6 @@ const Modal = ({ show, onClose, children }: ModalProps) => {
       <div className="modal-content">
         {children}
       </div>
-
-      {/* <Button
-         onClick={() => console.log('clicked')}
-         type="button"
-         className="btn"
-         children="Request Invite"
-      /> */}
-     
     </div>
   );
 };
