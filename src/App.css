@@ -11,6 +11,13 @@
   display: none;
 }
 
+.hero-section {
+  width: 100%;
+  background-image: url('./assets/images/bg-intro-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
+
 /* Modal.css */
 .modal-backdrop {
   position: fixed;
