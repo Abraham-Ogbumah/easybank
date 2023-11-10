@@ -20,13 +20,12 @@
 }
 
 .mockups {
-  height: 23rem;
+  /* height: 23rem; */
 }
 
 .mockup-image {
   width: 100%;
-  position: absolute;
-  top: -40px;
+  margin-top: -7rem;
 }
 
 .hero-text {
@@ -85,6 +84,14 @@
   flex-direction: column;
   padding: 10px 90px;
   gap: 40px;
+}
+
+.about-us_sub {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
