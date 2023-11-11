@@ -5,9 +5,9 @@ import FastAPI from '@assets/images/icon-api.svg';
 
 const AboutUs = () => {
   return (
-    <div>
-      <h1>Why choose Easybank</h1>
-      <p>
+    <div className='why-easybank'>
+      <h1 className='why-easybank_header'>Why choose Easybank</h1>
+      <p className='why-easybank_description'>
         We leverage Open Banking to turn your bank account into your financial
         hub. Control your finances like never before.
       </p>
