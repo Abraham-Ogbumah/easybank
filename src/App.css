@@ -97,10 +97,15 @@
 .why-easybank {
   padding: 60px 0;
   background-color: #F4F5F7;
+  text-align: center;
 }
 
 .why-easybank_header {
   font-size: 2rem;
+}
+
+.feature-title {
+  color: #000;
 }
 
 @media (min-width: 768px) {

@@ -28,7 +28,7 @@ const AboutUs = () => {
           <div className="icon-container">
             <img src={Budgetting} alt="budgetting icon" />
           </div>
-          <h2>Simple Budgeting</h2>
+          <h2 className='feature-title'>Simple Budgeting</h2>
           <p>
             See exactly where your money goes each month. Receive notifications
             when you're close to your hitting limits.
@@ -39,7 +39,7 @@ const AboutUs = () => {
           <div className="icon-container">
             <img src={Onboarding} alt="Onboarding icon" />
           </div>
-          <h2>Fast Onboarding</h2>
+          <h2 className='feature-title'>Fast Onboarding</h2>
           <p>
             We don’t do branches. Open your account in minutes online and start
             taking control of your finances right away.
@@ -50,7 +50,7 @@ const AboutUs = () => {
           <div className="icon-container">
             <img src={FastAPI} alt="fastAPI icon" />
           </div>
-          <h2>Open API</h2>
+          <h2 className='feature-title'>Open API</h2>
           <p>
             Manage your savings, investments, pension, and much more from one
             account. Tracking your money has never been easier.
