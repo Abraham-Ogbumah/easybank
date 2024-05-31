@@ -2,8 +2,8 @@ import Button from "../Button/Button";
 
 interface ModalProps {
   show: boolean;
-  onClose: () => void;
-  children: React.ReactNode;
+  onClose: () => void,
+  children: React.ReactNode,
 }
 
 const Modal = ({ show, onClose, children }: ModalProps) => {
